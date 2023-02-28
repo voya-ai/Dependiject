@@ -8,6 +8,8 @@
 
 import Combine
 
+// MARK: -
+/// @mockable
 public protocol AnyObservableObject: AnyObject {
     var objectWillChange: ObservableObjectPublisher { get }
 }
